@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="primary">#272a3b</color>
+    <color name="orange_color">#ef6c00</color>
+    <color name="gray_bg">#eeeeee</color>
+    <color name="basic_item_bg">@android:color/white</color>
+
+    <color name="basic_text_color">@android:color/white</color>
+    <color name="hint_text_color">#7f7f7f</color>
+    <color name="stroke_gray_color">#dddddd</color>
+    <color name="button_blue_bg">#409de5</color>
+    <color name="button_light_green_bg">#1de9b6</color>
+    <color name="button_dark_green_bg">#8dc150</color>
+    <color name="button_yellow_bg">#f7bb42</color>
+    <color name="text_setting_selected_bg">#f0f0f5</color>
+
+    <color name="tag_blue_bg">#5f9cff</color>
+    <color name="tag_orange_bg">#ff9a57</color>
+    <color name="tag_red_bg">#ff6d5f</color>
+    <color name="tag_green_bg">#40d189</color>
+    <color name="tag_blue_light_bg">#33befa</color>
+    <!--pdf-->
+    <color name="transpot">#00000000</color>
+    <!-- <color name="main">#FF6600</color> -->
+    <color name="main">#00CED1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#ACABAA</color>
+    <color name="gray2">#EEEEEE</color>
+    <color name="maint">#00B3B7</color>
+    <color name="transpotblack">#66000000</color>
+    <color name="transpotblack2">#1D000000</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow1">#FFA346</color>
+    <color name="image_box_bg">#ff22323b</color>
+    <!--  wifi颜色-->
+    <color name="popup_title_color">#ffc9cdd1</color>
+    <color name="advance_setting_item_bg">#fff8f8f8</color>
+    <color name="light_blue">#33b5e5</color>
+    <color name="transparent">#00000000</color>
+    <color name="textdec">#f18c14</color>
+
+    <!-- mupdf -->
+    <color name="canvas">#404040</color>
+    <color name="toolbar">#C0000000</color>
+    <color name="page_indicator">#C0202020</color>
+    <color name="busy_indicator">#C0202020</color>
+    <color name="button_normal">#00000000</color>
+    <color name="button_pressed">#FF2572AC</color>
+    <color name="text_normal">#FFFFFF</color>
+    <color name="text_pressed">#FFFFFF</color>
+    <color name="text_border_normal">#000000</color>
+    <color name="text_border_pressed">#2572AC</color>
+    <color name="text_border_focused">#000000</color>
+    <color name="seek_thumb">#2572AC</color>
+    <color name="seek_progress">#FFFFFF</color>
+
+
+
+
+
+    <color name="black_overlay">#66000000</color>
+    <color name="blue">#2a9be1</color>
+    <color name="whie">#ffffff</color>
+    <color name="black_gray">#7c7a7a</color>
+    <color name="viwe_bg_color">#738e8d8d</color>
+    <color name="text_color">#9d1fbc</color>
+    <color name="text_color2">#9d1fbc</color>
+    <color name="light">#36d6d0</color>
+    <color name="textColoe">#59126b</color>
+    <array name="chartColors">
+        <item>#3366CC</item>
+        <item>#DC3912</item>
+        <item>#FF9900</item>
+    </array>
+    <array name="barColors">
+        <item>#3366CC</item>
+        <item>#DC3912</item>
+    </array>
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+    <color name="colorPrimaryHalf">#9003A9F4</color>
+    <color name="colorControlNormalHalf">#9078909C</color>
+    <color name="colorControlActivatedHalf">#9003A9F4</color>
+    <color name="colorAccentQuarter">#3300E5FF</color>
+    <color name="colorAccentHalf">#9000E5FF</color>
+
+    <array name="progress_colors_light">
+        <item>#FF03A9F4</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="progress_colors_dark">
+        <item>#FF00E5FF</item>
+        <item>#ffd81d5a</item>
+        <item>#fff27512</item>
+        <item>#ff63bc34</item>
+    </array>
+
+    <array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array>
+
+    <array name="in_colors_dark">
+        <item>#4B00E5FF</item>
+        <item>#3300E5FF</item>
+        <item>#1900E5FF</item>
+    </array>
+
+    <color name="tpi_checked">#FFFFFFFF</color>
+    <color name="tpi_unchecked">#99FFFFFF</color>
+
+    <color name="et_divider_focused">@color/colorControlActivated</color>
+    <color name="et_divider_not_focused">#FF6D6D6D</color>
+    <color name="et_divider_disable">#FFC1C1C1</color>
+    <color name="tintColor">#a620c7</color>
+    <color name="light_yellow">#efe58c</color>
+
+</resources>

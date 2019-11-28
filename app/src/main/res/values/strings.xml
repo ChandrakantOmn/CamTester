@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">TestLib</string>
+    <string name="go_back">Back</string>
+    <string name="insert_sdcard_tip">Please Insert SDCard</string>
+    <string name="tip_input_text">Input Text</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="tip_confirm_exit">EXIT Printer ?</string>
+    <string name="connected">Connected</string>
+    <string name="unconnected">UNConnected</string>
+    <string name="fail_connect">Link Failed</string>
+    <string name="success_connect">Link Succeed</string>
+    <string name="tip_connect">Disconnected Printer!</string>
+    <string name="tip_disconnected">Break Link</string>
+    <string name="model">Mode：GDP12</string>
+    <string name="specifications">Norms：58mm\\80mm</string>
+    <string name="specification">Norms：</string>
+    <string name="print">Print</string>
+    <string name="print_test_page">PrintTestPage</string>
+
+    <string name="mainAct">Main</string>
+
+    <string name="label">LB</string>
+    <string name="label_text_print">LB Text</string>
+    <string name="label_barcode_print">LB Barcode</string>
+    <string name="label_templet_print">LB Templet</string>
+    <string name="label_picture_print">LB Image</string>
+    <string name="label_web_print">LB Web</string>
+    <string name="label_size_str">LB Size(mm):</string>
+    <string name="xzcc">choose label size:</string>
+    <string name="input_limits_number">0123456789</string>
+
+    <string name="heat_sensitive">TS</string>
+    <string name="heat_sensitive_text_print">TS Text</string>
+    <string name="heat_sensitive_barcode_print">TS Barcode</string>
+    <string name="heat_sensitive_templet_print">TS Templet</string>
+    <string name="heat_sensitive_picture_print">TS Image</string>
+    <string name="heat_sensitive_web_print">TS Web</string>
+    <string name="heat_sensitive_pdf_print">TS PDF</string>
+    <string name="wifi_set">WIFI SET</string>
+    <string name="wifi_mode">WIFI MODE</string>
+    <string name="wifi_name">WIFI NAME:</string>
+    <string name="wifi_password">WIFI PassWord:</string>
+    <string name="wifi_confirm">CONFIRM SET THIS WIFI</string>
+    <string name="wifi_refresh">REFRESH WIFI</string>
+    <string name="wifi_save_change">SAVE CHANGE</string>
+
+    <string name="wifi_net_set">WIFI NET SET</string>
+    <string name="wifi_ip">IP</string>
+    <string name="wifi_ip1">IP:</string>
+    <string name="wifi_dhcp">DHCP</string>
+    <string name="wifi_dhcp1">DHCP:</string>
+    <string name="wifi_mask">Sub Mask:</string>
+    <string name="wifi_gateway">GateWay:</string>
+    <string name="wifi_disable">Disable</string>
+    <string name="wifi_enable">Enable</string>
+
+    <string name="port_type">Port Type：</string>
+    <string name="bluetooth">BT</string>
+    <string name="usb">USB</string>
+    <string name="wifi">WIFI</string>
+    <string name="com">COM</string>
+    <string name="connect">Connect</string>
+    <string name="tip_choose_bluetooth_device">Opt BT Device</string>
+    <string name="tip_choose_usb_device">Opt USB Device</string>
+    <string name="tip_choose_wifi_device">Opt WIFI Device</string>
+    <string name="tip_disconnect">Break Linking？</string>
+    <string name="cut_all">Full Cut Test</string>
+    <string name="half_cut">Half Cut Test</string>
+    <string name="beeper_test">Buzzer Test</string>
+    <string name="cash_box_test">Drawer Test</string>
+
+
+    <string name="ask_for_saving_setting">Save？</string>
+
+    <string name="device_does_not_support_bluetooth">Don\'t Support BT</string>
+    <string name="choose_bluetooth_device">Opt BT Device</string>
+    <string name="paired_devices">Paired Device</string>
+    <string name="tip_have_no_paired_device">Is Paired Device？</string>
+    <string name="tip_have_no_found_bluetooth_device">No Found BT Devices</string>
+    <string name="search_device">Search Devices</string>
+    <string name="choose_usb_device">Opt USB Device</string>
+    <string name="print_device">Device</string>
+    <string name="tip_insert_usb_device">Please Insert USB Device</string>
+    <string name="choose_wifi_device">Opt WIFI Device</string>
+    <string name="connect_com_device">Please connect com</string>
+    <string name="input_ip">Input IP</string>
+    <string name="input_port">Input Port</string>
+    <string name="tip_ip_input">Input IP</string>
+    <string name="tip_port_input">Input Port</string>
+    <string name="tip_input_correct_ip">Input Correct IP</string>
+    <string name="tip_choose_address">Opt Device\'s Address</string>
+    <string name="click_to_choose">Click To Choose</string>
+    <string name="tip_have_no_found_wifi_device">No Found WIFI Devices</string>
+
+    <string name="tip_label_width_overstep">OverWidth</string><!--新增-->
+
+    <string name="barcode_print">BarcodePrint</string>
+    <string name="barcode">Barcode</string>
+    <string name="UPC_A">UPC-A</string>
+    <string name="UPC_E">UPC-E</string>
+    <string name="EAN13">EAN13</string>
+    <string name="EAN8">EAN8</string>
+    <string name="CODE39">CODE39</string>
+    <string name="ITF">ITF</string>
+    <string name="CODABAR">CODABAR</string>
+    <string name="CODE93">CODE93</string>
+    <string name="CODE128">CODE128</string>
+    <string name="QR_CODE">QRcode</string>
+
+    <string name="tip_preview">Preview:</string>
+
+    <string name="templet1">Templet1</string>
+    <string name="rt_technology">RongtaTech</string>
+    <string name="content_company_name">Xiamen Rongta Technology Co.,Ltd</string>
+    <string name="content_address">address:Xiamen Huli District GaoQi North Road No.195</string>
+    <string name="content_tel">tel:5925666129</string>
+    <string name="content_email">email:sales@rongtatech.com</string>
+
+    <string name="image_print">Print Image</string>
+    <string name="click_to_upload_image">Upload Image</string>
+    <string name="tip_upload_image">No image,Firstly Upload a image</string>
+    <string name="choose_picture_position">Image Position</string>
+    <string name="picture">Photograph</string>
+    <string name="album">Album</string>
+
+    <string name="web_page_print">Web Page</string>
+    <string name="entry_preview">Preview Entry</string>
+    <string name="tip_open_web_page">Please Open Web Page</string>
+
+    <string name="delete_saved_content">Delete</string>
+    <string name="ask_for_deleting">Ask for delete data？</string>
+    <string name="delete">Delete</string>
+
+    <!--***********************pdf used************************************-->
+    <string name="cannot_open_document_Reason">Cannot open document: %1$s</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="cannot_open_document">Cannot open document</string>
+    <string name="enter_password">Enter password</string>
+    <string name="okay">Okay</string>
+    <string name="entering_reflow_mode">Entering reflow mode</string>
+    <string name="leaving_reflow_mode">Leaving reflow mode</string>
+    <string name="format_currently_not_supported">Format currently not supported</string>
+    <string name="highlight">Highlight</string>
+    <string name="ink">Ink</string>
+    <string name="copy_text">copy text</string>
+    <string name="text_not_found">Text not found</string>
+    <string name="toggle_links">Highlight and enable links</string>
+    <string name="strike_out">Strike-out</string>
+    <string name="underline">Underline</string>
+    <string name="select_text">Select text</string>
+    <string name="draw_annotation">Draw annotation</string>
+    <string name="edit_annotations">Edit annotations</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="no_text_selected">No text selected</string>
+    <string name="not_supported">Not supported</string>
+    <string name="nothing_to_save">Nothing to save</string>
+    <string name="document_has_changes_save_them_">Document has changes. Save them?</string>
+    <string name="no">No</string>
+    <string name="back">back</string>
+    <string name="text_print">Text print</string>
+    <string name="print_copies">Select The Number of Print Copies：</string>
+    <string name="copies">Print copies:</string>
+    <string name="ones"> 1 </string>
+    <string name="printScope">Print range:</string>
+    <string name="to">To</string>
+    <string name="ye">Page</string>
+    <string name="quxiao">Cancel</string>
+    <string name="confirmprint">Confirm print</string>
+    <string name="no_media_warning">Storage media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="version">1.3 (build)</string>
+    <string name="picker_title_App_Ver_Dir">%1$s%2$s:%3$s</string>
+    <string name="parent_directory">[Up one level]</string>
+    <string name="print_failed">Print failed</string>
+    <string name="toggle_reflow_mode">Toggle reflow mode</string>
+    <string name="outline_title">Table of Contents</string>
+    <string name="search_document">Search document</string>
+    <string name="more">More</string>
+    <string name="search">Search</string>
+    <string name="search_backwards">Search backwards</string>
+    <string name="search_forwards">Search forwards</string>
+    <string name="searching_">Searching&#8230;</string>
+    <string name="select">Select</string>
+    <string name="copy_text_to_the_clipboard">Copy text to the clipboard</string>
+    <string name="accept">Accept</string>
+    <string name="no_further_occurrences_found">No further occurrences found</string>
+    <string name="fill_out_text_field">Fill out text field</string>
+    <string name="choose_value">Choose value</string>
+    <string name="cmdtype">Cmd Type:</string>
+    <string name="cmdtype_tsc">TSC</string>
+    <string name="cmdtype_cpcl">CPCL</string>
+    <string name="cmdtype_zpl">ZPL</string>
+    <string name="cancel_print">Cancel Print</string>
+    <string name="title_cancel">Cancel Print Test</string>
+    <string name="restore_print">Change To Printing Status</string>
+    <string name="can_print">Can Print Now....</string>
+    <string name="preview_url">PreView URL</string>
+    <string name="input_http_address">Input Http Address</string>
+    <string name="dialog_cancel_print">Cancel-Print</string>
+    <string name="web_refresh">Refresh WebPage</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="print_sample_no_1">Sample No.1</string>
+    <string name="print_sample_no_2">Sample No.2</string>
+    <string name="preview_txt">%s  \n↓ ↓</string>
+    <string name="disconnect_btn">DisConnect</string>
+    <!--***********************end*****************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="loading">Loading...</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="text_bluetooth_off">Bluetooth is Off</string>
+    <string name="text_bluetooth_on">Bluetooth is On</string>
+
+    <string name="text_connect">Connect</string>
+    <string name="text_disconnect">Diconnect</string>
+
+    <string name="text_enable_bluetooth">Enable Bluetooth</string>
+    <string name="text_disable_bluetooth">Disable Bluetooth</string>
+
+    <string name="text_scan_devices">Scan Devices</string>
+    <string name="text_stop_scan">Scan Devices</string>
+
+    <string name="text_list_paired_devices">Paired Devices</string>
+    <string name="text_list_devices">List of Devices</string>
+
+    <string name="text_pair">Pair</string>
+    <string name="test">Transfer to Bank account will be allowed only after 15days from the date of on-line loading of wallet.
+If on-line loading of wallet is un-successful, the amount will be reversed to your bank a/c within 5 working days. In case of delay of reversal, please contact your bank.
+</string>
+
+
+    <string name="text_print_demo">Print Demo</string>
+    <string name="text_print_barcode">Print Barcode</string>
+    <string name="text_print_image">Print Image</string>
+    <string name="text_print_receipt">Print Receipt</string>
+    <string name="text_print_text">Print Text</string>
+    <string name="reciept">Bill Receipts</string>
+    <string name="cablebill">Cablebill.in</string>
+    <string name="cablebill_in">CableBill.in</string>
+
+
+</resources>

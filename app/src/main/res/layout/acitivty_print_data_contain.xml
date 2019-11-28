@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_ver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/cablebill_in"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/connect_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/disconnect_btn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/basic_item_bg"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/port_type"
+                android:textSize="@dimen/text_size_normal"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/rg_heat_sensitive_setting_connect_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                tools:ignore="InefficientWeight">
+
+                <RadioButton
+                    android:id="@+id/rb_heat_sensitive_setting_com"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/round_checked_state_selector"
+                    android:drawablePadding="5dp"
+                    android:gravity="center|start"
+                    android:paddingLeft="5dp"
+                    android:text="@string/com"
+                    android:textSize="@dimen/text_size_normal" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg_print_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rg_print_image_58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="58mm" />
+
+                <RadioButton
+                    android:id="@+id/rg_print_image_80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="80mm" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/heat_sensitive_setting_connect_spinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@color/stroke_gray_color"
+                android:gravity="center"
+                android:padding="6dp"
+                android:paddingBottom="0dp" />
+
+            <TextView
+                android:id="@+id/tv_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/gree_blue_selector"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:paddingLeft="15dp"
+                android:paddingTop="8dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="@string/connect"
+                android:textColor="@color/basic_item_bg"
+                android:textSize="@dimen/text_size_normal" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/printText"
+                android:layout_marginTop="6dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/datatv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:padding="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:typeface="sans" />
+                </FrameLayout>
+            </ScrollView>
+            <!--tv_heat_sensitive_text_print-->
+            <!--tv_heat_sensitive_print_self_test_page-->
+
+            <TextView
+                android:id="@+id/printText"
+                style="@style/Btn_state"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="@string/print"
+                android:textColor="@color/whie"
+                android:textStyle="bold"
+                android:focusable="true" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/table_divider"
+            android:gravity="center_horizontal"
+            android:showDividers="end">
+
+            <TableRow android:layout_marginTop="0dp">
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_print_self_test_page"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/print_test_page" />
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_beeper_test"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/beeper_test" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_cash_box_test"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/cash_box_test" />
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_print_all_cut"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/cut_all" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_print_half_cut"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/half_cut" />
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_text_print1"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/heat_sensitive_text_print" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_barcode_print"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/heat_sensitive_barcode_print" />
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_templet_print"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/heat_sensitive_templet_print" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_picture_print"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/heat_sensitive_picture_print" />
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_web_page_print"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/heat_sensitive_web_print" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_pdf_print"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/heat_sensitive_pdf_print"
+                    android:textSize="@dimen/text_size_small" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_wifi_set"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/wifi_set"
+                    android:textSize="@dimen/text_size_small" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_heat_sensitive_net_set"
+                    style="@style/Btn_state"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="@string/wifi_net_set"
+                    android:textSize="@dimen/text_size_small" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
